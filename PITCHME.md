@@ -1,11 +1,10 @@
-# Google Colaboratoryの間違った使い方
+## Google Colaboratoryの間違った使い方
 
 @第38回シェル芸勉強会 大阪サテライト
 
 
 ---
-# 目次
-
+## 目次
 * Google Colaboratoryとは
 * 実態
 * 無駄遣い
@@ -13,30 +12,36 @@
 
 
 ---
-# 自己紹介
-
+## 自己紹介
 * ハンドルネーム: MSR
     * [Twitter ID: @msr386](https://twitter.com/msr386)
 * Webブラウザ [Tungsten](https://app.tungsten-start.net/) の作者
 
 
 ---
-# Google Colaboratoryとは
-
+## Google Colaboratoryとは
 * Googleが機械学習の教育、研究のために用意した無料のPython実行環境
 * モダンブラウザとGoogleアカウントさえあればアクセス可能
 * 機械学習に必要な環境は最初から構築済  
   TensorFlowやmatplotlibなどがインストール済の仮想マシンが用意され、すぐに実行できる
+
+
+---
+## Google Colaboratoryとは
 * GPUもTPUも無料で使える  
-  ![Image](images/accel_type.png)
+  ![type](images/accel_type.png)
 
 ---
 # Google Colaboratoryの実態
 
+
+---
 ## 共通
 * 連続使用時間は12時間
 * アイドリングストップ機構あり(90分)
 
+
+---
 ## GPUなし
 ![Instance](images/env.png)
 * GCEのn1-highmem-2インスタンスがベース
@@ -47,32 +52,36 @@
     * Python: 2.7 or 3.6.6
 * 常時稼働ならば \7000/月 相当
 
-## GPU
 
+---
+## GPU
 * Tesla K80 相当のGPU
 ![InstanceGPU](images/nvidia-smi.png)
 
+
+---
 ## TPU
 
 * 第2世代TPU?
 
 
 ---
-# Google Colaboratoryを無駄遣いする
+## Google Colaboratoryを無駄遣いする
 
-## 普通の使い方
+---
+### 普通の使い方
 
 * 機械学習の教育、研究用に使う
 
 
 ---
-## 間違った使い方
+### 間違った使い方
 
 ![Shell](images/shellgei.png)
 
 
 ---
-## 間違った使い方
+### 間違った使い方
 
 * シェル芸の気軽な実行環境として使う
 * ~~フォーク爆弾~~(絶対にダメ)
@@ -81,7 +90,7 @@
 
 
 ---
-# 使用方法
+### 使用方法
 
 1. Googleアカウントでログイン
 1. https://colab.research.google.com/にアクセス
@@ -90,10 +99,11 @@
 
 
 ---
-# コマンド実行
+## コマンド実行
 
-## Python
 
+---
+### Python
 subprocessを使う
 
 ```
@@ -104,14 +114,14 @@ print(proc.stdout.decode("utf8"))
 
 
 ---
-## Tips (1)
+### Tips (1)
 
 * 先頭に"!"をつけるだけでも実行できる
 * コード実行のショートカットキーは`Ctrl+Enter`
 * Ctrl+Enterで実行可能
 
 ---
-## Tips (2)
+### Tips (2)
 * インターネット接続可
 * Git標準搭載
 * インスタンスが停止するときれいさっぱり忘れる
@@ -126,11 +136,11 @@ print(proc.stdout.decode("utf8"))
 ![toilet](images/toilet.png)
 
 ---
-# 実行デモ
+## 実行デモ
 
 
 ---
-# 参考
+## 参考
 
 - Google Colabの知っておくべき使い方 – Google Colaboratoryのメリット・デメリットや基本操作のまとめ  
   https://www.codexa.net/how-to-use-google-colaboratory/
@@ -141,7 +151,7 @@ print(proc.stdout.decode("utf8"))
 
 
 ---
-# まとめ
+## まとめ
 
 - Google Colaboratoryは機械学習の教育、研究を目的とした研究用ツール
 - 目的外の使用は控えましょう
