@@ -112,7 +112,9 @@ subprocessを使う
 
 ```
 import subprocess
-proc = subprocess.run(["uname", "-a"], stdout = subprocess.PIPE, stderr = subprocess.PIPE)
+proc = subprocess.run(["uname", "-a"],
+                      stdout = subprocess.PIPE,
+                      stderr = subprocess.PIPE)
 print(proc.stdout.decode("utf8"))
 ```
 
