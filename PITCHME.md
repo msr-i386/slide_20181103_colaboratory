@@ -29,7 +29,7 @@
 ---
 ## Google Colaboratoryとは
 * GPUもTPUも無料で使える  
-  ![type](images/accel_type.png)
+![type](images/accel_type.png)
 
 ---
 # Google Colaboratoryの実態
@@ -44,6 +44,10 @@
 ---
 ## GPUなし
 ![Instance](images/env.png)
+
+
+---
+## GPUなし
 * GCEのn1-highmem-2インスタンスがベース
     * CPU: 2コア 2.3GHz
     * メモリ: 13GB
@@ -93,7 +97,7 @@
 ### 使用方法
 
 1. Googleアカウントでログイン
-1. https://colab.research.google.com/にアクセス
+1. https://colab.research.google.com/ にアクセス
 1. [ファイル]メニューから新しいノートブックを開く
 1. コードブロックにコードを書いていく
 
