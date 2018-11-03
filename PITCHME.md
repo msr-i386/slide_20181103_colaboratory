@@ -19,7 +19,7 @@
 
 
 ---
-## Google Colaboratoryとは
+### Google Colaboratoryとは
 * Googleが機械学習の教育、研究のために用意した無料のPython実行環境
 * モダンブラウザとGoogleアカウントさえあればアクセス可能
 * 機械学習に必要な環境は最初から構築済  
@@ -27,12 +27,12 @@
 
 
 ---
-## Google Colaboratoryとは
+### Google Colaboratoryとは
 * GPUもTPUも無料で使える  
 ![type](images/accel_type.png)
 
 ---
-## Google Colaboratoryの実態
+### Google Colaboratoryの実態
 
 
 ---
@@ -70,7 +70,7 @@
 
 
 ---
-## Google Colaboratoryを無駄遣いする
+### Google Colaboratoryを無駄遣いする
 
 ---
 ### 普通の使い方
