@@ -88,7 +88,7 @@
 ### 間違った使い方
 
 * シェル芸の気軽な実行環境として使う
-* ~~危険シェル芸 ~~(絶対にダメ)
+* ~~危険シェル芸~~ (絶対にダメ)
 
 ※目的外の使用はほどほどに
 
@@ -141,8 +141,10 @@ print(proc.stdout.decode("utf8"))
 
 
 ---
-## 参考
+### 参考
 
+* よくある質問  
+  https://research.google.com/colaboratory/faq.html
 * Google Colabの知っておくべき使い方 – Google Colaboratoryのメリット・デメリットや基本操作のまとめ  
   https://www.codexa.net/how-to-use-google-colaboratory/
 * 【秒速で無料GPUを使う】深層学習実践Tips on Colaboratory  
@@ -155,4 +157,5 @@ print(proc.stdout.decode("utf8"))
 ## まとめ
 
 - Google Colaboratoryは機械学習の教育、研究を目的とした研究用ツール
+- 実態は機械学習環境構築済のLinux仮想マシン
 - 目的外の使用は控えましょう
