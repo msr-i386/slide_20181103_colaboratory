@@ -141,7 +141,15 @@ print(proc.stdout.decode("utf8"))
 
 
 ---
-### 参考
+## まとめ
+
+- Google Colaboratoryは機械学習の教育、研究を目的とした研究用ツール
+- 実態は機械学習環境構築済のLinux仮想マシン
+- 目的外の使用は控えましょう
+
+
+---
+## 参考資料
 
 * よくある質問  
   https://research.google.com/colaboratory/faq.html
@@ -151,11 +159,3 @@ print(proc.stdout.decode("utf8"))
   https://qiita.com/tomo_makes/items/b3c60b10f7b25a0a5935
 * Google ColaboratoryのTPUを試してみる  
   https://qiita.com/koshian2/items/25a6341c035e8a260a01
-
-
----
-## まとめ
-
-- Google Colaboratoryは機械学習の教育、研究を目的とした研究用ツール
-- 実態は機械学習環境構築済のLinux仮想マシン
-- 目的外の使用は控えましょう
