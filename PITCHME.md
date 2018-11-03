@@ -32,7 +32,7 @@
 ![type](images/accel_type.png)
 
 ---
-# Google Colaboratoryの実態
+## Google Colaboratoryの実態
 
 
 ---
@@ -96,18 +96,14 @@
 ---
 ### 使用方法
 
-1. Googleアカウントでログイン
 1. https://colab.research.google.com/ にアクセス
 1. [ファイル]メニューから新しいノートブックを開く
+1. {必要に応じて}Googleアカウントでログイン
 1. コードブロックにコードを書いていく
 
 
 ---
-## コマンド実行
-
-
----
-### Python
+### Pythonでコマンド実行
 subprocessを使う
 
 ```
@@ -123,15 +119,14 @@ print(proc.stdout.decode("utf8"))
 ### Tips (1)
 
 * 先頭に"!"をつけるだけでも実行できる
-* コード実行のショートカットキーは`Ctrl+Enter`
-* Ctrl+Enterで実行可能
+* `Ctrl+Enter`で実行可能
 
 ---
 ### Tips (2)
 * インターネット接続可
 * Git標準搭載
-* インスタンスが停止するときれいさっぱり忘れる
 * apt install可能
+* インスタンスが停止するときれいさっぱり忘れる
 
 
 ---
@@ -148,11 +143,11 @@ print(proc.stdout.decode("utf8"))
 ---
 ## 参考
 
-- Google Colabの知っておくべき使い方 – Google Colaboratoryのメリット・デメリットや基本操作のまとめ  
+* Google Colabの知っておくべき使い方 – Google Colaboratoryのメリット・デメリットや基本操作のまとめ  
   https://www.codexa.net/how-to-use-google-colaboratory/
-- 【秒速で無料GPUを使う】深層学習実践Tips on Colaboratory  
+* 【秒速で無料GPUを使う】深層学習実践Tips on Colaboratory  
   https://qiita.com/tomo_makes/items/b3c60b10f7b25a0a5935
-- Google ColaboratoryのTPUを試してみる  
+* Google ColaboratoryのTPUを試してみる  
   https://qiita.com/koshian2/items/25a6341c035e8a260a01
 
 
